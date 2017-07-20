@@ -1546,7 +1546,7 @@ h1.section-title:after{
 	
 }
 
-.actor .social {
+.actor . {
 	margin: 0 auto;
 	margin-top: 50%;
 	padding-bottom: 20px;
@@ -2220,7 +2220,7 @@ h1.section-title:after{
 
 #page-name {
 	padding: 160px 0px 120px 0px;
-	background:url(../img/video-img.jpg) center center no-repeat;
+	background:url(../img/bg1.jpg) center center no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 	position:relative;

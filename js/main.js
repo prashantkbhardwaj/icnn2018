@@ -71,7 +71,7 @@ jQuery(document).ready(function($) {
 
 
 	$('#expand-counters').appear(function() {
-	$('#expand-counter-1').animateNumber({ number: 94 }, 3000 );
+	$('#expand-counter-1').animateNumber({ number: 14 }, 3000 );
 	$('#expand-counter-2').animateNumber({ number: 72 }, 3000 );
 	$('#expand-counter-3').animateNumber({ number: 86 }, 3000 );
 	$('#expand-counter-4').animateNumber({ number: 64 }, 3000 );
@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
 
 
 	$('.features-wrap').appear(function() {
-	$('.expand-1').css('width', '94%');
+	$('.expand-1').css('width', '14%');
 	$('.expand-2').css('width', '72%');
 	$('.expand-3').css('width', '86%');
 	$('.expand-4').css('width', '64%');
