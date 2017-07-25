@@ -110,7 +110,9 @@
         <div class="col-lg-9 wp2 delay-05s">
                 	<!-- 01 -->
                     <div class="blog-item blog-item-full">
-                	<div class="blog-item-img"><a href="img/blog/01.jpg" class="popup"><img src="img/visa.jpg" alt=""></a></div>
+                	<div class="blog-item-img">
+                    <div id="map" style="width:100%;height:500px"></div>
+                    </div>
                     <div class="blog-item-info page-scroll">
                     
                     </div><!-- /.blog-item-info --> 
@@ -194,6 +196,16 @@ organizers for suitable letter for visa processing.
 
 
     <!-- Core JavaScript Files -->
+    <script>
+        function myMap() {
+          var myCenter = new google.maps.LatLng(12.841163, 80.153792);
+          var mapCanvas = document.getElementById("map");
+          var mapOptions = {center: myCenter, zoom: 15};
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+          var marker = new google.maps.Marker({position:myCenter});
+          marker.setMap(map);
+        }
+        </script>
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
@@ -209,6 +221,7 @@ organizers for suitable letter for visa processing.
 
     <!-- Custom Theme JavaScript -->
     <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
     
 
 </body>
