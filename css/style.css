@@ -51,7 +51,7 @@
 
 .font-similar {
 	font-family: 'JournalRegular', Arial, sans-serif; 
-	color:#bebebe;
+	color:#99FF66;
 	font-size: 42px;
 	line-height: 56px;
 }
@@ -93,7 +93,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
 	font-size: 16px;
-	color: #bebebe;
+	color: #99FF66;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
@@ -156,7 +156,7 @@ iframe {
 }
 
 .detailed b {
-	color: #fb0000;
+	color: #99FF66;
 }
 
 .sub-title {
@@ -218,15 +218,15 @@ a:focus {
 }
 
 .text-dark {
-	color: #bebebe !important;
+	color: #99FF66 !important;
 }
 
 .text-light {
-	color: #fff !important;
+	color: #99FF66 !important;
 }
 
 .text-color {
-	color: #fb0000 !important;
+	color: #99FF66 !important;
 }
 
 /* Text Area Style */
@@ -270,7 +270,7 @@ textarea:focus {
 /* Default Settings */
 
 .dark {
-	color: #fff;
+	color: #99FF66;
 	border-color: #fff;
 	background: #2b2b2b;
 }
