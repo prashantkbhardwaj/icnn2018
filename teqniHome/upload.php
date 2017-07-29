@@ -9,7 +9,7 @@
  
  $sql ="SELECT id FROM volleyupload ORDER BY id ASC";
  
- $res = mysqli_query($con,$sql);
+ $res = mysqli_query($conn,$sql);
  
  $id = 0;
  
@@ -21,14 +21,14 @@
  
  $actualpath = "http://www.vit5icnn2018.com/teqniHome/$path";
  
- $sql = "INSERT INTO volleyupload (photo,name) VALUES ('$actualpath','$name')";
+ $sql = "INSERT INTO volleyupload (photo,name) VALUES ('{$actualpath}','{$name}')";
  
- if(mysqli_query($con,$sql)){
+ if(mysqli_query($conn,$sql)){
  file_put_contents($path,base64_decode($image));
  echo "Successfully Uploaded";
  }
  
- mysqli_close($con);
+ mysqli_close($conn);
  }else{
  echo "Error";
  }
