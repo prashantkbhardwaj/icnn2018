@@ -6,9 +6,11 @@
         $username = mysql_prep($_POST['username']); 
         $name = $_POST['name']; 
         $hashed_password = password_encrypt($_POST['password']);
+        $branch = $_POST['branch'];
+        $year = $_POST['year'];
         
-        $query = "INSERT INTO users (username, name, hashed_password)";
-        $query .= " VALUES ('{$username}', '{$name}', '{$hashed_password}')";
+        $query = "INSERT INTO users (username, name, hashed_password, branch, year)";
+        $query .= " VALUES ('{$username}', '{$name}', '{$hashed_password}', '{$branch}', '{$year}')";
         $result = mysqli_query($conn, $query);
 
         if ($result) {
