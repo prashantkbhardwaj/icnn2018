@@ -7,11 +7,6 @@ $citynstate = $_GET['citynstate'];
 $country = $_GET['country'];
 $message = $_GET['message'];
 
-function redirect_to($new_location) {
-	header("Location: " . $new_location);
-	exit; 
-}
-
 $content = "<!DOCTYPE html> ";
 $content .= "<html> ";
 $content .= "<head> ";
@@ -51,7 +46,12 @@ if(!$mail->send()) {
    echo 'Message could not be sent.';
    echo 'Mailer Error: ' . $mail->ErrorInfo;
    exit;
+} else {
+	function redirect_to($new_location) {
+		header("Location: " . $new_location);
+		exit; 
+	}
+	redirect_to("index.html");
 } 
 
-	redirect_to("index.html");
 ?>
