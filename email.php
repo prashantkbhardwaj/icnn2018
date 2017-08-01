@@ -7,6 +7,10 @@ $citynstate = $_GET['citynstate'];
 $country = $_GET['country'];
 $message = $_GET['message'];
 
+function redirect_to($new_location) {
+	header("Location: " . $new_location);
+	exit; 
+}
 
 $content = "<!DOCTYPE html> ";
 $content .= "<html> ";
