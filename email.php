@@ -1,14 +1,12 @@
 <?php 
-$name = $_POST['name'];
-$mail = $_POST['mail'];
-$phone = $_POST['phone'];
-$address = $_POST['address'];
-$citynstate = $_POST['citynstate'];
-$country = $_POST['country'];
-$message = $_POST['message'];
+$name = $_GET['name'];
+$mail = $_GET['mail'];
+$phone = $_GET['phone'];
+$address = $_GET['address'];
+$citynstate = $_GET['citynstate'];
+$country = $_GET['country'];
+$message = $_GET['message'];
 
-
-// registration bill html code starts
 
 $content = "<!DOCTYPE html> ";
 $content .= "<html> ";
