@@ -34,7 +34,7 @@ $mail->Password = '25nov1992';
 $mail->SMTPSecure = 'tls';                            
 $mail->Port = 587;                                    
 $mail->setFrom('icnn2018website@gmail.com', 'ICNN2018 Website');
-$mail->addAddress("pkpbhardwaj729@gmail.com");       
+$mail->addAddress("vit5icnn2018@gmail.com");       
 $mail->WordWrap = 50; 
 $mail->isHTML(true);                                  
  
