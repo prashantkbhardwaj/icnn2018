@@ -817,14 +817,15 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title text-center">Thank You!</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 class="modal-title text-center" style="color: black;">Thank You!</h1>
                 </div>
                 <div class="modal-body">
                     <p>
                         <div class="row">
                             <div class="col-lg-12 text-center">
-                                <p>
-                                    We have received your message and will get back to you shortly.
+                                <p style="color: black;">
+                                    <strong>We have received your message and will get back to you shortly.</strong>
                                 </p>
                             </div>
                         </div>                     
@@ -834,11 +835,7 @@
         </div>
     </div>
 
-    <?php
-        if ($_GET['status']==1) {
-            echo "<script>$('#start').modal('show');</script>";
-        }
-    ?>
+    
     <!-- Core JavaScript Files -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -871,7 +868,13 @@
             setTimeout(carousel, 4000);    
         }
     </script>
-    
+    <?php
+        if (isset($_GET['status'])) {
+            if ($_GET['status']==1) {
+                echo "<script>$('#start').modal('show');</script>";
+            }
+        }
+    ?>
 
 </body>
 
