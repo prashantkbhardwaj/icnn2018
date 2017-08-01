@@ -1,8 +1,3 @@
-<?php
-    if ($_GET['status']==1) {
-        echo "<script>$('#start').modal('show');</script>";
-    }
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -839,7 +834,11 @@
         </div>
     </div>
 
-
+    <?php
+        if ($_GET['status']==1) {
+            echo "<script>$('#start').modal('show');</script>";
+        }
+    ?>
     <!-- Core JavaScript Files -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
