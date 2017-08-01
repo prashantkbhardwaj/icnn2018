@@ -1,11 +1,11 @@
 <?php 
-$name = $_POST['name']);
-$mail = $_POST['mail']);
-$phone = $_POST['phone']);
-$address = $_POST['address']);
-$citynstate = $_POST['citynstate']);
-$country = $_POST['country']);
-$message = $_POST['message']);
+$name = $_POST['name'];
+$mail = $_POST['mail'];
+$phone = $_POST['phone'];
+$address = $_POST['address'];
+$citynstate = $_POST['citynstate'];
+$country = $_POST['country'];
+$message = $_POST['message'];
 
 
 // registration bill html code starts
