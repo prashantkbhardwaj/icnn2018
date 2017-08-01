@@ -752,36 +752,36 @@
             <div class="comment-form wp4 delay-05s">
               <h2 class="sub-title">Information Desk</h2>
               <p>Please let us know if we can help you to know more about the conference</p>
-              <form class="comment-form-wrapper" action="mailto:vit5icnn2018@gmail.com?Subject?From%20website" method="post" enctype="text/plain" target="_top">
+              <form class="comment-form-wrapper" action="email.php" method="get" enctype="text/plain" target="_top">
                       <div class="row">
                       <div class="col-md-12 no-padding">
                           <div class="col-lg-6">
-                              <input type="text" placeholder="Your name" Required>
+                              <input type="text" placeholder="Your name" name="name" Required>
                           </div>
                           <div class="col-lg-6">
-                              <input type="email" placeholder="Your mail" Required>
-                          </div>
-                      </div>
-                      <div class="col-md-12 no-padding">
-                          <div class="col-lg-6">
-                              <input type="text" placeholder="Your phone" Required>
-                          </div>
-                          <div class="col-lg-6">
-                              <input type="text" placeholder="Your address" Required>
+                              <input type="email" placeholder="Your mail" name="mail" Required>
                           </div>
                       </div>
                       <div class="col-md-12 no-padding">
                           <div class="col-lg-6">
-                              <input type="text" placeholder="Your city & state" Required>
+                              <input type="text" placeholder="Your phone" name="phone" Required>
                           </div>
                           <div class="col-lg-6">
-                              <input type="text" placeholder="Your country" Required>
+                              <input type="text" placeholder="Your address" name="address" Required>
+                          </div>
+                      </div>
+                      <div class="col-md-12 no-padding">
+                          <div class="col-lg-6">
+                              <input type="text" placeholder="Your city & state" name="citynstate" Required>
+                          </div>
+                          <div class="col-lg-6">
+                              <input type="text" placeholder="Your country" name="country" Required>
                           </div>
                       </div>
                       <div class="col-md-12">
-                          <textarea id="comment-text-area" placeholder="Your message" rows="5" Required></textarea>
+                          <textarea id="comment-text-area" placeholder="Your message" name="message" rows="5" Required></textarea>
                           <div class="col-md-3 col-xs-offset-3"><button value="clear"  class="clear-comment-form" onclick="javascript:eraseText();">Clear text<i class="fa fa-times"></i></button></div>
-                          <div class="col-md-3"><button type="submit">Send<i class="fa fa-chevron-right"></i></button></div>
+                          <div class="col-md-3"><button name="submit" type="submit">Send<i class="fa fa-chevron-right"></i></button></div>
                          
                       </div>
                   </div>
