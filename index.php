@@ -1,3 +1,8 @@
+<?php
+    if ($_GET['status']==1) {
+        echo "<script>$('#start').modal('show');</script>";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -812,6 +817,27 @@
         </div><!-- /.row --> 
     </div><!-- /.container -->     	  
     </section><!-- /#contact --> 
+
+    <div class="modal fade" id="start" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center">Thank You!</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <p>
+                                    We have received your message and will get back to you shortly.
+                                </p>
+                            </div>
+                        </div>                     
+                    </p>
+                </div>
+            </div>          
+        </div>
+    </div>
 
 
     <!-- Core JavaScript Files -->

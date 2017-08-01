@@ -51,7 +51,7 @@ if(!$mail->send()) {
 		header("Location: " . $new_location);
 		exit; 
 	}
-	redirect_to("index.html");
+	redirect_to("index.php?status=1");
 } 
 
 ?>
