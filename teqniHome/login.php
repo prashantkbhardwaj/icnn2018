@@ -14,6 +14,8 @@
         $response["success"] = true;  
         $response["name"] = $found_user['name'];
         $response["username"] = $found_user['username'];
+        $response["branch"] = $found_user['branch'];
+        $response["year"] = $found_user['year'];
         echo json_encode($response);
     }
 ?>
