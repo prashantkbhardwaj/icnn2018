@@ -1,34 +1,20 @@
 <?php
+ 	if($_SERVER['REQUEST_METHOD']=='POST'){
  
- if($_SERVER['REQUEST_METHOD']=='POST'){
- 
- $image = $_POST['image'];
-                $name = $_POST['name'];
- 
-  require_once("includes/db_connection.php");
- 
- $sql ="SELECT id FROM volleyupload ORDER BY id ASC";
- 
- $res = mysqli_query($conn,$sql);
- 
- $id = 0;
- 
- while($row = mysqli_fetch_array($res)){
- $id = $row['id'];
- }
- 
- $path = "uploads/$id.png";
- 
- $actualpath = "http://www.vit5icnn2018.com/teqniHome/$path";
- 
- $sql = "INSERT INTO volleyupload (photo,name) VALUES ('{$actualpath}','{$name}')";
- 
- if(mysqli_query($conn,$sql)){
- file_put_contents($path,base64_decode($image));
- echo "Successfully Uploaded";
- }
- 
- mysqli_close($conn);
- }else{
- echo "Error";
- }
+	 	$image = $_POST['image'];
+	    $uploader = $_POST['uploader'];
+	    $folder = $_POST['folder'];
+	  	require_once("includes/db_connection.php");
+	 	$id = date("Ymdhis");
+	 	$path = "uploads/$folder/$id.png";
+	 	$actualpath = "http://www.vit5icnn2018.com/teqniHome/$path";
+	 	$sql = "INSERT INTO volleyupload (imgPath, uploader) VALUES ('{$actualpath}','{$uploader}')";
+		if(mysqli_query($conn,$sql)){
+		 	file_put_contents($path,base64_decode($image));
+		 	echo "Successfully Uploaded";
+		}
+	 	mysqli_close($conn);
+	}else{
+	 	echo "Error";
+	}
+?>
