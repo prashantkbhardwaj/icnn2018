@@ -133,6 +133,7 @@
                             </a>
                             <h4 class="text-center"><strong>Industry Partner</strong></h4>
                        </div>
+                        <div align=center><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-B3bwDb1YYzd56d5a-13.gif' border='0' alt='free web counter'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=B3bwDb1YYzd56d5a'></script></div>
                     </div>
                 </div>
             </div>
