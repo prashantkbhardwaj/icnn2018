@@ -6,6 +6,7 @@
 	$i = 0;
 	while ($list = mysqli_fetch_assoc()) {
 		$response[$i]['url'] = $list['imgPath'];
+		echo $response[$i]['url']."<br>";
 		$i = $i+1;
 	}
 	for ($f=0; $f < $i; $f++) { 
