@@ -6,10 +6,7 @@
 	$i = 0;
 	while ($list = mysqli_fetch_assoc($result)) {
 		$response[$i]['url'] = $list['imgPath'];
-		echo $response[$i]['url']."<br>";
 		$i = $i+1;
 	}
-	for ($f=0; $f < $i; $f++) { 
-		echo json_encode($response);
-	}
+	echo json_encode($response);
 ?>
