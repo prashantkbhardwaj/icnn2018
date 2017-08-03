@@ -10,6 +10,6 @@
 		$i = $i+1;
 	}
 	for ($f=0; $f < $i; $f++) { 
-		echo json_encode($response[$i]['url']);
+		echo json_encode($response);
 	}
 ?>
