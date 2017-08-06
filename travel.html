@@ -27,6 +27,31 @@
 	<link href="js/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="js/lib/video/YTPlayer.css" rel="stylesheet">
     <link href="js/lib/flipclock/flipclock.css" rel="stylesheet">
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
     
 </head>
 
@@ -67,13 +92,16 @@
                         <a href="index.php#dates">Dates</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="index.php#abstracts">Abstracts & Publication</a>
+                        <a href="index.php#abstracts">Abstracts</a>
                     </li>
                     <li class="page-scroll">
                         <a href="index.php#actors">Committee</a>
                     </li>
+                    <li class="page-scroll">
+                        <a href="index.php#gallery">Speakers</a>
+                    </li>
                     <li>
-                        <a href="travel.html">Travel & Visa</a>
+                        <a href="travel.html">Travel</a>
                     </li>
                     <li class="page-scroll">
                         <a href="index.php#contact">Contact</a>
@@ -165,6 +193,31 @@ organizers for suitable letter for visa processing.
     </div><!-- /.row -->     	    
 	</div><!-- /.container --> 
 	</section><!-- /#blog -->  
+
+    <section id="gallery">
+    <div class="overlay"></div>
+    
+    <div class="section-wrapper wp8 delay-05s">
+    <h1 class="section-title">Places to visit</h1>
+            <div id="owl-gallery">
+                  
+                <div class="item"><a href="img/gallery/bnBeach.jpg" class="popup"><img src="img/gallery/bnBeach.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/covelong.jpg" class="popup"><img src="img/gallery/covelong.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/crocs.jpg" class="popup"><img src="img/gallery/crocs.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/dc.jpg" class="popup"><img src="img/gallery/dc.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/fort.jpg" class="popup"><img src="img/gallery/fort.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/gt.jpg" class="popup"><img src="img/gallery/gt.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/kapaleeshwar.jpg" class="popup"><img src="img/gallery/kapaleeshwar.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/mahabs.jpg" class="popup"><img src="img/gallery/mahabs.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/marina.jpg" class="popup"><img src="img/gallery/marina.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/pondy.jpeg" class="popup"><img src="img/gallery/pondy.jpeg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/sanThome.jpg" class="popup"><img src="img/gallery/sanThome.jpg" alt=""></a></div>
+                <div class="item"><a href="img/gallery/tigerCave.JPG" class="popup"><img src="img/gallery/tigerCave.JPG" alt=""></a></div>
+                <div class="item"><a href="img/gallery/vandalurZoo.jpg" class="popup"><img src="img/gallery/vandalurZoo.jpg" alt=""></a></div>
+          
+            </div>
+    </div>
+    </div>
 
 
 	<!-- Contact Section -->

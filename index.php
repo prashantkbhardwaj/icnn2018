@@ -79,13 +79,16 @@
                         <a href="#dates">Dates</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#abstracts">Abstracts & Publication</a>
+                        <a href="#abstracts">Abstracts</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#actors">Committee</a>
                     </li>
+                    <li class="page-scroll">
+                        <a href="#gallery">Speakers</a>
+                    </li>
                     <li>
-                        <a href="travel.html">Travel & Visa</a>
+                        <a href="travel.html">Travel</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
