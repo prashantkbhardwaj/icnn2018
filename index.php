@@ -811,7 +811,7 @@
                 </p> 
             </div><!-- /.col-md-4 -->  
             <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/prabeer.jpg" class="img-circle"></div>
+                <div class="advantages-item-icon"><img src="img/actors/prabeerBhai.jpg" class="img-circle"></div>
                 <h4>Dr. Prabeer Barpanda</h4>
                 <p>
                 IISc, Bangalore, India
