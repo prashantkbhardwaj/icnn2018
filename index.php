@@ -689,25 +689,153 @@
     
     
     <!-- Gallery Section -->
-   <!-- <section id="gallery">
+   <section id="gallery">
  	<div class="overlay"></div>
     
     <div class="section-wrapper wp8 delay-05s">
-    <h1 class="section-title">Gallery</h1>
-            <div id="owl-gallery">
+    <h1 class="section-title">Conference Speakers (Plenary/Keynote)</h1>
+            <div >
                   
-				<div class="item"><a href="img/gallery/01.jpg" class="popup"><img src="img/gallery/01.jpg" alt=""></a></div>
-				<div class="item"><a href="img/gallery/02.jpg" class="popup"><img src="img/gallery/02.jpg" alt=""></a></div>
-				<div class="item"><a href="img/gallery/03.jpg" class="popup"><img src="img/gallery/03.jpg" alt=""></a></div>
-                <div class="item"><a href="img/gallery/04.jpg" class="popup"><img src="img/gallery/04.jpg" alt=""></a></div>
-                <div class="item"><a href="img/gallery/05.jpg" class="popup"><img src="img/gallery/05.jpg" alt=""></a></div>
-                <div class="item"><a href="img/gallery/06.jpg" class="popup"><img src="img/gallery/06.jpg" alt=""></a></div>
-                <div class="item"><a href="img/gallery/07.jpg" class="popup"><img src="img/gallery/07.jpg" alt=""></a></div>
-                <div class="item"><a href="img/gallery/08.jpg" class="popup"><img src="img/gallery/08.jpg" alt=""></a></div>
+				<div class="container">
+        <div class="row">
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/tatsumi.jpg" class="img-circle"></div>
+                <h4>Dr. Tatsumi Ishihara</h4>
+                <p>
+                Kyushu University, Japan
+                </p> 
+            </div><!-- /.col-md-4 -->     
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/enrico.jpg" class="img-circle"></div>
+                <h4>Dr. Enrico Traversa</h4>
+                <p>
+                University of Roma, Torvergata, Italy
+                </p> 
+            </div><!-- /.col-md-4 -->        
+            
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/alberto.jpg" class="img-circle"></div>
+                <h4>Dr. Alberto Rainer</h4>
+                <p>
+                Università Campus Bio-Medico di Roma, Roma Italy
+                </p> 
+            </div><!-- /.col-md-4 -->    
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/luca.jpg" class="img-circle"></div>
+                <h4>Dr. Luca Malfatti</h4>
+                <p>
+                D.A.D.U. - Università di Sassari, Alghero
+                </p> 
+            </div><!-- /.col-md-4 -->  
+        </div>
+        <div class="row">
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/steve.jpg" class="img-circle"></div>
+                <h4>Dr. Steve Dunn</h4>
+                <p>
+                Queen Mary University of London, United Kingdom
+                </p> 
+            </div><!-- /.col-md-4 -->        
+            
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/matjaz.jpg" class="img-circle"></div>
+                <h4>Dr. Matjaz Valant</h4>
+                <p>
+                University of Nova Gorica, Slovenia
+                </p> 
+            </div><!-- /.col-md-4 -->    
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/tetiana.png" class="img-circle"></div>
+                <h4>Dr. Tetiana Tatarchuk</h4>
+                <p>
+                Vasyl Stefanyk Precarpathian National University, Ukraine
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/md.png" class="img-circle"></div>
+                <h4>Dr. Mohamed Bououdina</h4>
+                <p>
+                University of Bahrain, Bahrain
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            
+        </div>  
+        <div class="row">
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/kathi.jpg" class="img-circle"></div>
+                <h4>Dr. P. Kathirgamanathan</h4>
+                <p>
+                Brunel University, London, UK
+                </p> 
+            </div><!-- /.col-md-4 -->        
+            
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/russell.jpg" class="img-circle"></div>
+                <h4>Dr Russell Binions</h4>
+                <p>
+                Queen Mary University of London, UK
+                </p> 
+            </div><!-- /.col-md-4 -->    
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/jeremy.png" class="img-circle"></div>
+                <h4>Dr Jeremy Ball</h4>
+                <p>
+                London South Bank University, United Kingdom
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/anna.jpg" class="img-circle"></div>
+                <h4>Dr Anna-Karin Axelsson</h4>
+                <p>
+                London South Bank University, UK
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            
+        </div>  
+        <div class="row">
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/john.jpg" class="img-circle"></div>
+                <h4>Dr. John V Kennedy</h4>
+                <p>
+                National Isotope Centre, New Zealand
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/peter.jpg" class="img-circle"></div>
+                <h4>Peter G. Kazansky</h4>
+                <p>
+                University of Southampton, UK
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/prabeer.jpg" class="img-circle"></div>
+                <h4>Dr. Prabeer Barpanda</h4>
+                <p>
+                IISc, Bangalore, India
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/basu.jpg" class="img-circle"></div>
+                <h4>Dr. RN Basu</h4>
+                <p>
+                CGCRI, Kolkata, India
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            
+        </div>
+        <div class="row">
+            <div class="col-md-12 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/amit.jpg" class="img-circle"></div>
+                <h4>Dr. Amit Biswas</h4>
+                <p>
+                Dr. Reddy's Lab, Hyderabad
+                </p> 
+            </div><!-- /.col-md-4 -->  
+        </div>
           
             </div>
     </div>
-	</section> -->    
+	</section>    
 
 	<!-- Contact Section -->
     <section id="contact">
