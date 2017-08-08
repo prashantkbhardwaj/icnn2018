@@ -10,7 +10,7 @@
         $level2opt = $_POST['level2opt'];
         $level3opt = $_POST['level3opt'];
         
-        $query = "UPDATE levelNames SET level1 = '{$level1}', level2 = '{$level2}', level3 = '{$level3}', level1opt = '{$level1opt}', level2opt = '{$level2opt}', level3 = '{$level3opt}' ";
+        $query = "UPDATE levelNames SET level1 = '{$level1}', level2 = '{$level2}', level3 = '{$level3}', level1opt = '{$level1opt}', level2opt = '{$level2opt}', level3opt = '{$level3opt}' ";
         $result = mysqli_query($conn, $query);
 
         if ($result) {
