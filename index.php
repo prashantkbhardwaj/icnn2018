@@ -195,7 +195,7 @@
             <div class="col-lg-9 col-md-9 wp3 delay-05s">
             <h2 class="sub-title">About VIT University</h2>  
             <p>
-                VIT University for the past 33 years has made a mark in the field of higher education in India imparting quality education in a multi-cultural ambience, intertwined with extensive application-oriented research. VIT University was established with the aim to provide quality higher education on par with International Standards. It persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent basis. It was established by well-known educationalist and former parliamentarian, Dr. G. Viswanathan, Founder and Chancellor, a visionary who transformed VIT into a center of excellence in higher technical education. VIT Chennai is ably spearheaded by Mr. Sankar Viswanathan, Vice President, Ms. Kadhambari S. Viswanathan, Assistant Vice President, Dr. Anand A. Samuel, Vice Chancellor and Dr. P. Gunasekaran, Pro Vice Chancellor of VIT University. They share in the mission to make VIT a global center.
+                VIT University for the past 33 years has made a mark in the field of higher education in India imparting quality education in a multi-cultural ambience, intertwined with extensive application-oriented research. VIT University was established with the aim to provide quality higher education on par with International Standards. It persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent basis. It was established by well-known educationalist and former parliamentarian, Dr. G. Viswanathan, Founder and Chancellor, a visionary who transformed VIT into a center of excellence in higher technical education. VIT Chennai is ably spearheaded by Mr. Sankar Viswanathan, Vice President, Ms. Kadhambari S. Viswanathan, Assistant Vice President, Dr. Anand A. Samuel, Vice Chancellor and Dr. N. Sambandam, Pro Vice Chancellor of VIT University. They share in the mission to make VIT a global center.
             </p>
             <ul class="feature-list">
 				<li><i class="fa fa-star"></i> The first and the only University in India to get 4-STAR rating from  QS, the international ranking agency</li>
@@ -283,7 +283,7 @@
             
         </div>  
         <div class="row">
-            <div class="col-md-3 advantages-item wp7 delay-05s">
+            <div class="col-md-6 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/anand.jpeg" class="img-circle"></div>
                 <h4>Dr. Anand A. Samuel</h4>
                 <p>
@@ -291,27 +291,13 @@
                 </p> 
             </div><!-- /.col-md-4 -->        
             
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/gunasekaran.png" class="img-circle"></div>
-                <h4>Dr. P. Gunasekaran</h4>
+            <div class="col-md-6 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/provc.jpg" class="img-circle"></div>
+                <h4>Dr. N. Sambandam</h4>
                 <p>
                 Pro-Vice Chancellor
                 </p> 
             </div><!-- /.col-md-4 -->    
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/raju.jpeg" class="img-circle"></div>
-                <h4>Dr. V Raju</h4>
-                <p>
-                Pro-Vice Chancellor
-                </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-3 advantages-item wp7 delay-05s">
-                <div class="advantages-item-icon"><img src="img/actors/narayanan.jpeg" class="img-circle"></div>
-                <h4>Dr. S. Narayanan</h4>
-                <p>
-                Pro-Vice Chancellor
-                </p> 
-            </div><!-- /.col-md-4 -->  
             
         </div>  
              
@@ -651,9 +637,9 @@
                     Dr. Tetiana Tatarchuk, Vasyl Stefanyk Precarpathian National University, Ukraine<br>
                     Dr. Mohamed Bououdina, University of Bahrain, Bahrain<br>
                     Dr. P. Kathirgamanathan, Brunel University, London, UK<br>
-                    Dr Russell Binions, Queen Mary University of London, UK<br>
-                    Dr Jeremy Ball, London South Bank University, United Kingdom<br>
-                    Dr Anna-Karin Axelsson, London South Bank University, UK<br>
+                    Dr. Russell Binions, Queen Mary University of London, UK<br>
+                    Dr. Jeremy Ball, London South Bank University, United Kingdom<br>
+                    Dr. Anna-Karin Axelsson, London South Bank University, UK<br>
                     Dr. John V Kennedy, National Isotope Centre, New Zealand<br>
                 </div>
 				<div class="col-lg-6">
@@ -663,7 +649,8 @@
                      Dr. R.N. Basu, CGCRI, Kolakata<br>
                      Dr. Prabeer Barpanda, Indian Institute of Science<br>
                      Dr. R. Vijayaraghavan, VIT University, Vellore<br>
-                     Dr. Amit Biswas, Dr. Reddy’s Lab, Hyderabad<br>
+                     Dr. Ravikumar, VP and Global Head of Analytical R&D, Reddy’s Lab<br>
+                     Dr. Amit Biswas, Executive Vice President-Integrated Product Development, Reddy’s Lab<br>
                      Dr. Mainak Roy, BARC Mumbai<br>
                 </div>     
                 
@@ -781,14 +768,14 @@
             </div><!-- /.col-md-4 -->    
             <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/jeremy.png" class="img-circle"></div>
-                <h4>Dr Jeremy Ball</h4>
+                <h4>Dr. Jeremy Ball</h4>
                 <p>
                 London South Bank University, United Kingdom
                 </p> 
             </div><!-- /.col-md-4 -->  
             <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/anna.jpg" class="img-circle"></div>
-                <h4>Dr Anna-Karin Axelsson</h4>
+                <h4>Dr. Anna-Karin Axelsson</h4>
                 <p>
                 London South Bank University, UK
                 </p> 
@@ -805,7 +792,7 @@
             </div><!-- /.col-md-4 -->  
             <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/peter.jpg" class="img-circle"></div>
-                <h4>Peter G. Kazansky</h4>
+                <h4>Dr. Peter G. Kazansky</h4>
                 <p>
                 University of Southampton, UK
                 </p> 
@@ -827,7 +814,21 @@
             
         </div>
         <div class="row">
-            <div class="col-md-12 advantages-item wp7 delay-05s">
+            <div class="col-md-4 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/vento.jpg" class="img-circle"></div>
+                <h4>Dr. Fiorenzo Vetrone</h4>
+                <p>
+                Université du Québec , Canada
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            <div class="col-md-4 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/concina.jpg" class="img-circle"></div>
+                <h4>Dr. Isabella Concina</h4>
+                <p>
+                Luleå University of Technology, Sweden
+                </p> 
+            </div><!-- /.col-md-4 -->  
+            <div class="col-md-4 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/amit.jpg" class="img-circle"></div>
                 <h4>Dr. Amit Biswas</h4>
                 <p>
