@@ -283,7 +283,10 @@
             
         </div>  
         <div class="row">
-            <div class="col-md-6 advantages-item wp7 delay-05s">
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                
+            </div><!-- /.col-md-4 -->        
+            <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/anand.jpeg" class="img-circle"></div>
                 <h4>Dr. Anand A. Samuel</h4>
                 <p>
@@ -291,13 +294,16 @@
                 </p> 
             </div><!-- /.col-md-4 -->        
             
-            <div class="col-md-6 advantages-item wp7 delay-05s">
+            <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/provc.jpg" class="img-circle"></div>
                 <h4>Dr. N. Sambandam</h4>
                 <p>
                 Pro-Vice Chancellor
                 </p> 
             </div><!-- /.col-md-4 -->    
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                
+            </div><!-- /.col-md-4 -->   
             
         </div>  
              
