@@ -3,15 +3,12 @@
  
 	 	$image = $_POST['image'];
 	    $uploader = $_POST['uploader'];
-	    $folder = $_POST['folder'];
-	    $branch = $_POST['branch'];
-	    $year = $_POST['year'];
-	    $sessionName = $_POST['sessionName'];
+	    $level1 = $_POST['level1'];
 	  	require_once("includes/db_connection.php");
 	 	$id = date("Ymdhis");
-	 	$path = "uploads/$folder/$id.png";
-	 	$actualpath = "http://192.168.1.101/fileTransfers/teqniHome/$path";
-	 	$sql = "INSERT INTO volleyupload (imgPath, uploader, branch, year, sessionName) VALUES ('{$actualpath}','{$uploader}', '{$branch}', '{$year}', '{$sessionName}')";
+	 	$path = "uploads/$id.png";
+	 	$actualpath = "http://www.vit5icnn2018.com/teqniHome/$path";
+	 	$sql = "INSERT INTO volleyupload (imgPath, uploader, level1) VALUES ('{$actualpath}','{$uploader}', '{$level1}')";
 		if(mysqli_query($conn,$sql)){
 		 	file_put_contents($path,base64_decode($image));
 		 	echo "Successfully Uploaded";
