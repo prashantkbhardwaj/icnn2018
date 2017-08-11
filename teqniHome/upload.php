@@ -11,9 +11,11 @@
 	    $timeDuration = $_POST['timeduration'];
 	  	require_once("includes/db_connection.php");
 	 	$id = date("Ymdhis");
+	 	date_default_timezone_set("Asia/Kolkata");
+		$dateUpload = date("d M, Y | h:i a");
 	 	$path = "uploads/$id.png";
 	 	$actualpath = "http://www.vit5icnn2018.com/teqniHome/$path";
-	 	$sql = "INSERT INTO volleyupload (imgPath, uploader, level1, level2, level3, pictureName, sessionName, timeDuration) VALUES ('{$actualpath}','{$uploader}', '{$level1}', '{$level2}', '{$level3}', '{$pictureName}', '{$sessionName}', '{$timeDuration}')";
+	 	$sql = "INSERT INTO volleyupload (imgPath, uploader, level1, level2, level3, pictureName, sessionName, timeDuration, dateUpload) VALUES ('{$actualpath}','{$uploader}', '{$level1}', '{$level2}', '{$level3}', '{$pictureName}', '{$sessionName}', '{$timeDuration}', '{$dateUpload}')";
 		if(mysqli_query($conn,$sql)){
 		 	file_put_contents($path,base64_decode($image));
 		 	echo "Successfully Uploaded";
