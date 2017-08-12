@@ -1,7 +1,7 @@
 <?php require_once("includes/db_connection.php");?>
 <?php require_once("includes/functions.php");?>
 <?php
-	$query = "SELECT * FROM volleyupload";
+	$query = "SELECT * FROM volleyupload ORDER BY id DESC";
 	$result = mysqli_query($conn, $query);
 	$i = 0;
 	$response = array();
