@@ -9,13 +9,14 @@
 	    $pictureName = $_POST['picturename'];
 	    $sessionName = $_POST['sessionname'];
 	    $timeDuration = $_POST['timeduration'];
+	    $qrcode = $_POST['qrcode'];
 	  	require_once("includes/db_connection.php");
 	 	$id = date("Ymdhis");
 	 	date_default_timezone_set("Asia/Kolkata");
 		$dateUpload = date("d M, Y | h:i a");
 	 	$path = "uploads/$id.png";
 	 	$actualpath = "http://www.vit5icnn2018.com/teqniHome/$path";
-	 	$sql = "INSERT INTO volleyupload (imgPath, uploader, level1, level2, level3, pictureName, sessionName, timeDuration, dateUpload) VALUES ('{$actualpath}','{$uploader}', '{$level1}', '{$level2}', '{$level3}', '{$pictureName}', '{$sessionName}', '{$timeDuration}', '{$dateUpload}')";
+	 	$sql = "INSERT INTO volleyupload (imgPath, uploader, level1, level2, level3, pictureName, sessionName, timeDuration, dateUpload, qrcode) VALUES ('{$actualpath}','{$uploader}', '{$level1}', '{$level2}', '{$level3}', '{$pictureName}', '{$sessionName}', '{$timeDuration}', '{$dateUpload}', '{$qrcode}')";
 		if(mysqli_query($conn,$sql)){
 		 	file_put_contents($path,base64_decode($image));
 		 	echo "Successfully Uploaded";
