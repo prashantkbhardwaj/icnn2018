@@ -8,6 +8,6 @@
     $list = mysqli_fetch_assoc($result);
 
 	if ($list['state']==1) {
-		echo "<script>window.location.href = 'http://www.vit5icnn2018.com/teqniHome/test.php?data=".$list['data'].";</script>";
+		echo "<script>window.location.href = 'http://www.vit5icnn2018.com/teqniHome/test.php?data=".$list['data']."';</script>";
 	}		 
 ?>
