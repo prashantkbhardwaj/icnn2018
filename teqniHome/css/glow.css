@@ -1,0 +1,19 @@
+.shadowfilter {
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.80));
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -webkit-filter: drop-shadow(2px 2px 8px rgba(0, 231, 255, 0.8));
+    width: 50%;
+    height: 50%;
+}
+@media screen and (max-width: 640px){
+	.shadowfilter {
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.80));
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -webkit-filter: drop-shadow(2px 2px 8px rgba(0, 231, 255, 0.8));
+    width: 80%;
+    height: 80%;
+}

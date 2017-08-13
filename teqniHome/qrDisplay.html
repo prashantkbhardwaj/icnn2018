@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>QR Codes</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+   
+    <!-- Advanced CSS -->
+    <link href="css/animate.css" rel="stylesheet"> 
+	<link href="js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
+	<link href="js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
+	<link href="js/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="js/lib/video/YTPlayer.css" rel="stylesheet">
+    <link href="js/lib/flipclock/flipclock.css" rel="stylesheet">
+    
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    
+    <!-- Page-name Section -->
+    <section>
+    <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 wp1 delay-05s">
+					<h1 class="text-center">Scan a code for Projection</h1>
+                    
+                </div><!-- /.col-lg-12 --> 
+            </div><!-- /.row --> 
+        </div><!-- /.container --> 
+    </section><!-- /#page-name --> 
+
+    <!-- Blog Section -->
+    <section id="blog">
+    <div class="container"> 
+        <div class="row" id="responsecontainer">      
+        <!-- data qr codes -->
+        
+    </div><!-- /.row -->     	    
+	</div><!-- /.container --> 
+	</section><!-- /#blog -->  
+
+
+	<!-- Contact Section -->
+    
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/lib/jquery.appear.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/lib/video/jquery.mb.YTPlayer.js"></script> 		
+    <script src="js/lib/flipclock/flipclock.js"></script>
+    <script src="js/lib/jquery.animateNumber.js"></script>
+    <script src="js/lib/waypoints.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+
+    <script>    
+        function initialize()
+        {        
+            $(document).ready(function() {
+                $("#responsecontainer").load("select.php");
+                var refreshId = setInterval(function() {
+                    $("#responsecontainer").load('select.php?randval='+ Math.random());
+                    var x = document.getElementById("responsecontainer").value;
+                    
+                                                       
+                }, 1000);
+                $.ajaxSetup({ cache: false});       
+            }); 
+        }    
+    </script>  
+    
+
+</body>
+
+</html>

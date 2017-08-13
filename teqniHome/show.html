@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="5th ICNN 2018, VITCC">
+    <meta name="author" content="Prashant Bhardwaj">
+
+    <title>5th ICNN 2018</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Custom Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/glow.css">
+   
+    <!-- Advanced CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="js/lib/owl-carousel/owl.theme.css" rel="stylesheet">
+	<link href="js/lib/owl-carousel/owl.transitions.css" rel="stylesheet">
+	<link href="js/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="js/lib/video/YTPlayer.css" rel="stylesheet">
+    <link href="js/lib/flipclock/flipclock.css" rel="stylesheet">
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+	<!-- Navigation -->
+
+   
+    <!-- Intro Section -->
+    <section id="intro">
+    <div class="video-content">  
+    <div class="video-image wp1 delay-1s">
+    	<img class="mySlides w3-animate-fading" src="img/bg1.jpg" alt="">
+        <img class="mySlides w3-animate-fading" src="img/bg2.jpg">
+    </div>
+
+    </section><!-- /#intro --> 
+    
+
+   
+
+    
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/lib/jquery.appear.js"></script>
+    <script src="js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/lib/video/jquery.mb.YTPlayer.js"></script> 		
+    <script src="js/lib/flipclock/flipclock.js"></script>
+    <script src="js/lib/jquery.animateNumber.js"></script>
+    <script src="js/lib/waypoints.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 4000);    
+        }
+    </script>
+</body>
+
+</html>
