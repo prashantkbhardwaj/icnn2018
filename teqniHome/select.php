@@ -7,6 +7,10 @@
 	confirm_query($result);
     
 	while ($notification = mysqli_fetch_assoc($result)) {
-		echo "<div class='col-lg-3'><img src='".$notification['qrcode']."'><br><h4>hello ji</h4></div>";
+		$dataex = explode("data=", $notification['qrcode']);
+		$dataPart = $dataex[1];
+		$dataPartex = explode("_", $dataPart);
+		$sessionName = $dataPartex[3];
+		echo "<div class='col-lg-3'><img src='".$notification['qrcode']."'><br><h4>".$sessionName."</h4></div>";
 	}		 
 ?>
