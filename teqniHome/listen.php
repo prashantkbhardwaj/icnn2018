@@ -2,7 +2,7 @@
 <?php require_once("includes/functions.php");?>
 
 <?php
-	$query = "SELECT * FROM listenState";
+	$query = "SELECT * FROM listenData";
 	$result = mysqli_query($conn, $query);
 	confirm_query($result);
     $list = mysqli_fetch_assoc($result);

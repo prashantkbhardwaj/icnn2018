@@ -5,8 +5,7 @@
     if ($_POST['data']!="") {
         $data = $_POST['data']; 
         $data = implode("_", $data);
-        $query = "INSERT INTO listenData (data, state)";
-        $query .= " VALUES ('{$data}', '1')";
+        $query = "UPDATE listenData set data = '{$data}', state = 1";
         $result = mysqli_query($conn, $query);
 
         if ($result) {
