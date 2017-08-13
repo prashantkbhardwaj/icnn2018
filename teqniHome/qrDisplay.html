@@ -58,7 +58,7 @@
 
 	<!-- Contact Section -->
     
-
+    <div id="listencontainer"></div>
     <!-- Core JavaScript Files -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -83,8 +83,13 @@
                 $("#responsecontainer").load("select.php");
                 var refreshId = setInterval(function() {
                     $("#responsecontainer").load('select.php?randval='+ Math.random());
-                    var x = document.getElementById("responsecontainer").value;
-                    
+                                                       
+                }, 1000);
+                $.ajaxSetup({ cache: false});   
+
+                $("#listencontainer").load("listen.php");
+                var listenId = setInterval(function() {
+                    $("#listencontainer").load('listen.php?randval='+ Math.random());
                                                        
                 }, 1000);
                 $.ajaxSetup({ cache: false});       
