@@ -95,7 +95,7 @@
     <script>
         var myIndex = 0;
         var myIndex2 = 0;
-        var timeDuration = document.getElementsById("timeDuration").value;
+        var timeDuration = document.getElementById("timeDuration").value;
         var arr = timeDuration.split(",");
         carousel();
         
