@@ -7,7 +7,6 @@
 	confirm_query($result);
     
 	while ($notification = mysqli_fetch_assoc($result)) {
-		echo "<div class='col-lg-3'><img src='".$notification['qrcode']."'></div>";
-		echo "<br><h4>hello ji</h4>";
+		echo "<div class='col-lg-3'><img src='".$notification['qrcode']."'></div><br><h4>hello ji</h4>";
 	}		 
 ?>
