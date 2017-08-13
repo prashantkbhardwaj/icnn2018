@@ -48,7 +48,7 @@
 </head>
 
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" onload="initialize();">
 
 	<!-- Navigation -->
 
@@ -75,7 +75,7 @@
 
    
 
-    
+    <div id="listencontainer"></div>
     <!-- Core JavaScript Files -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -114,6 +114,19 @@
             x[myIndex-1].style.display = "block";  
             setTimeout(carousel, arr[myIndex2++ %(arr.length-1)]);    
         }
+    </script>
+    <script type="text/javascript">
+        function initialize()
+        {        
+            $(document).ready(function() {
+                $("#listencontainer").load("listenStop.php");
+                var listenId = setInterval(function() {
+                    $("#listencontainer").load('listenStop.php?randval='+ Math.random());
+                                                       
+                }, 1000);
+                $.ajaxSetup({ cache: false});       
+            }); 
+        }    
     </script>
 </body>
 
