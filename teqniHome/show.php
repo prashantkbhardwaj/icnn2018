@@ -97,7 +97,7 @@
         var myIndex2 = 0;
         var timeDuration = document.getElementById("timeDuration").value;
         var arr = timeDuration.split(",");
-        for (var i = 0; i > arr.length-1; i++) {
+        for (var i = 0; i < arr.length-1; i++) {
             arr[i] = parseInt(arr[i], 10);
         }
         console.log(arr);
@@ -112,7 +112,7 @@
             myIndex++;
             if (myIndex > x.length) {myIndex = 1}    
             x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, arr[myIndex2++ %arr.length-1]);    
+            setTimeout(carousel, arr[myIndex2++ %(arr.length-1)]);    
         }
     </script>
 </body>
