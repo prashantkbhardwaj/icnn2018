@@ -2,7 +2,7 @@
 <?php require_once("includes/functions.php");?>
 
 <?php
-	$query = "SELECT DISTINCT(data) FROM volleyupload";
+	$query = "SELECT DISTINCT(qrcode) FROM volleyupload";
 	$result = mysqli_query($conn, $query);
 	confirm_query($result);
     
