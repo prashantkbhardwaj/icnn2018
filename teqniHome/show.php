@@ -1,13 +1,27 @@
+<?php require_once("includes/db_connection.php");?>
+<?php require_once("includes/functions.php");?>
+<?php
+    $data = $_GET['data'];
+    $dataex = explode("_", $data);
+    $level1 = $dataex[0];
+    $level2 = $dataex[1];
+    $level3 = $dataex[2];
+    $sessionName = $dataex[3];
+
+    $query = "SELECT * FROM volleyupload WHERE level1 = '{$level1}' AND level2 = '{$level2}' AND level3 = '{$level3}' AND sessionName = '{$sessionName}'";
+    $result = mysqli_query($conn, $query);
+    confirm_query($result);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="5th ICNN 2018, VITCC">
+    <meta name="description" content="Projection">
     <meta name="author" content="Prashant Bhardwaj">
 
-    <title>5th ICNN 2018</title>
+    <title>Slide Show</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -41,8 +55,12 @@
     <section id="intro">
     <div class="video-content">  
     <div class="video-image wp1 delay-1s">
-    	<img class="mySlides w3-animate-fading" src="img/bg1.jpg" alt="">
-        <img class="mySlides w3-animate-fading" src="img/bg2.jpg">
+        <?php
+            while ($list = mysqli_fetch_assoc($result)) { ?>
+                <img class="mySlides w3-animate-fading" src="<?php echo $list['imgPath']; ?>">
+            <?php    
+            }
+        ?>
     </div>
 
     </section><!-- /#intro --> 

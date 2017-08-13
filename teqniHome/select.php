@@ -2,7 +2,7 @@
 <?php require_once("includes/functions.php");?>
 
 <?php
-	$query = "SELECT * FROM volleyupload";
+	$query = "SELECT DISTINCT(data) FROM volleyupload";
 	$result = mysqli_query($conn, $query);
 	confirm_query($result);
     
