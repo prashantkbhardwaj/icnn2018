@@ -10,6 +10,8 @@
 
     $query = "SELECT * FROM volleyupload WHERE level1 = '{$level1}' AND level2 = '{$level2}' AND level3 = '{$level3}' AND sessionName = '{$sessionName}'";
     $result = mysqli_query($conn, $query);
+    $timeResult = mysqli_query($conn, $query);
+    confirm_query($timeResult);
     confirm_query($result);
 ?>
 <!DOCTYPE html>
@@ -62,6 +64,11 @@
             }
         ?>
     </div>
+    <input type="hidden" id="timeDuration" value="<?php
+        while ($timeList = mysqli_fetch_assoc($timeResult)) {
+            echo $timeList['timeDuration'].'000,';
+        }
+     ?>">
 
     </section><!-- /#intro --> 
     
@@ -87,8 +94,11 @@
     <script src="js/main.js"></script>
     <script>
         var myIndex = 0;
+        var myIndex2 = 0;
+        var timeDuration = document.getElementsById("timeDuration").value;
+        var arr = timeDuration.split(",");
         carousel();
-
+        
         function carousel() {
             var i;
             var x = document.getElementsByClassName("mySlides");
@@ -98,7 +108,7 @@
             myIndex++;
             if (myIndex > x.length) {myIndex = 1}    
             x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 4000);    
+            setTimeout(carousel, arr[myIndex2++ %arr.length]);    
         }
     </script>
 </body>
