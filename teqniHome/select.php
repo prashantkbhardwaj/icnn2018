@@ -8,6 +8,6 @@
     
 	while ($notification = mysqli_fetch_assoc($result)) {
 		echo "<div class='col-lg-3'><img src='".$notification['qrcode']."'></div>";
-		echo "<br><p style='color:white;'><strong>code 1</strong></p>";
+		echo "<br><h4>hello ji</h4>";
 	}		 
 ?>
