@@ -202,7 +202,7 @@
 				<li><i class="fa fa-certificate"></i> Ranked No.1 Private Engineering Institution by MHRD, Govt of India[NIRF-2017 ranking</li>
 				<li><i class="fa fa-graduation-cap"></i> Winner of the prestigious national award from FICCI, 'University of the year'  for 2016</li>
 			</ul>
-            <p>
+            <p> 
             
             
             
