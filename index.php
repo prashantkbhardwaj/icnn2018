@@ -216,10 +216,10 @@
                     <h5>Students from all over the world</h5>
                 </li>
                 
-                <li>
+                <!-- <li>
                     <span id="counter-2">0</span>
                     <h5>Job offers from top companies</h5>
-                </li>
+                </li> -->
                 
                 <li>
                     <span id="counter-3">0</span>
