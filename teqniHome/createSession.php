@@ -16,5 +16,4 @@
  		echo "Error";
  	}
 	
- 	mysqli_close($conn);
 ?>
