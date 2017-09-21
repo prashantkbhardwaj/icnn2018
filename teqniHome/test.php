@@ -1,4 +1,6 @@
 <?php
 $data = $_GET['data'];
-echo $data;
+$file = fopen("fa.txt","w");
+echo fwrite($file, $data);
+fclose($file);
 ?>
