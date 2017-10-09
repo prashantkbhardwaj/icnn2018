@@ -820,21 +820,28 @@
             
         </div>
         <div class="row">
-            <div class="col-md-4 advantages-item wp7 delay-05s">
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/taner.jpg" class="img-circle"></div>
+                <h4>Dr. Taner Akbay</h4>
+                <p>
+                Kyushu University, Japan
+                </p> 
+            </div><!-- /.col-md-3 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/vento.jpg" class="img-circle"></div>
                 <h4>Dr. Fiorenzo Vetrone</h4>
                 <p>
-                Université du Québec , Canada
+                Université du Québec, Canada
                 </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-4 advantages-item wp7 delay-05s">
+            </div><!-- /.col-md-3 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/concina.jpg" class="img-circle"></div>
                 <h4>Dr. Isabella Concina</h4>
                 <p>
                 Luleå University of Technology, Sweden
                 </p> 
-            </div><!-- /.col-md-4 -->  
-            <div class="col-md-4 advantages-item wp7 delay-05s">
+            </div><!-- /.col-md-3 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/amit.jpg" class="img-circle"></div>
                 <h4>Dr. Amit Biswas</h4>
                 <p>
