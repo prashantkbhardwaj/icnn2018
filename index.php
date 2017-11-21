@@ -849,6 +849,15 @@
                 </p> 
             </div><!-- /.col-md-4 -->  
         </div>
+        <div class="row">
+            <div class="col-md-12 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/ganpati.jpg" class="img-circle"></div>
+                <h4>Dr. Ganpati Ramanath</h4>
+                <p>
+                Rensselaer Polytechnic Institute, USA
+                </p> 
+            </div><!-- /.col-md-3 -->  
+        </div>
           
             </div>
     </div>
@@ -951,6 +960,7 @@
         <div class="copyright">
         © Created for VIT Chennai Campus</a>
        	<br>
+        <br>By <a href="https://prashantkbhardwaj.github.io">Prashant Bhardwaj</a>
         Visitor Count
         <div align=center><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-B3bwDb1YYzd56d5a-13.gif' border='0' alt='free web counter'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=B3bwDb1YYzd56d5a'></script></div>
         </div>
