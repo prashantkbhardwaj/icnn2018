@@ -110,7 +110,7 @@
                     <li class="page-scroll">
                         <a href="#patrons">Patrons</a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll tab blink">
                         <a href="#reg">Registrations</a>
                     </li>
                     <li class="page-scroll">
@@ -119,7 +119,7 @@
                     <li class="page-scroll">
                         <a href="#dates">Dates</a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll tab blink">
                         <a href="#abstracts">Abstracts</a>
                     </li>
                     <li class="page-scroll">
@@ -157,12 +157,17 @@
             <div class="col-md-12 wp1 delay-05s">
             
             <div class="intro-info-wrapper">
-            <img src="img/banner.png">
-            <div id="adjust">
+            <img  src="img/banner.png">
+            
             <h2 class="text-center">5<sup>th</sup> ICNN <span class="text-color font-light">2018</span></h2>
-            <h3 class="text-center">8-10 February, 2018</h3>
+            <h4 class="text-center">8-10 February, 2018</h4>
             <h5 class="text-center">Nanomaterials and Nanocomposite</h5>
             <h5 class="text-center">Special emphasis on health, energy and environment</h5>
+            <div class="text-center">
+                <a href="#" data-toggle="modal" data-target="#acco">
+                   <button class="btn-default tab blink">Accomodation</button>
+               </a>
+            </div>
                 <div id="owl-intro" class="owl-carousel owl-theme">
                     <div class="item">
                        <div class="col-lg-6">
@@ -177,11 +182,14 @@
                             </a>
                             <h4 class="text-center"><strong>Industry Partner</strong></h4>
                        </div>
-                       
-                       <center><p class="tab blink">Abstract submission date has been extended to Jan 10, 2018.</p></center>
-                       <center><p class="tab blink">Early bird registration date has been extended to Jan 17, 2018.</p></center>
-                       <center><p class="tab blink">Regular registration starts from Jan 18, 2018.</p></center>
                     </div>
+                </div>
+                <div class="tab blink text-center">
+                    <p>
+                        Abstract submission date has been extended to Jan 10, 2018.<br>
+                        Early bird registration date has been extended to Jan 17, 2018.<br>
+                        Regular registration starts from Jan 18, 2018.
+                    </p>
                 </div>
                 </div>
             </div>
@@ -435,6 +443,17 @@
                     For accompanying persons, registration fee includes Admission to all sessions, Banquet, Tea, Lunch and Dinner on all conference days.
                 </p>
                 <hr>
+                <p>
+                    Registration and Payment should be done using the link provided in the conference website.<br>
+                    <a href="www.vit.eventze.com">www.vit.eventze.com</a><br>
+                    Payments should be done by bank transfer. Bank charges are the responsibility of the participant and
+                    should be paid at source in addition to the registration fees.<br>
+                    Registration process guidelines are given in the attached pdf file. Registration will only be valid upon
+                    receipt of the full payment by organisers according to the deadline dates. You will receive an official
+                    confirmation e-mail following receipt of the payment. On spot registration by Demand Draft ( in the
+                    name of VIT Chennai payable at Chennai) is available on prior information to the organizers by mail.
+                </p>
+                <hr>
             </div>
 			</div>
             <div id="topic" class="row">
@@ -653,6 +672,23 @@
                 Authors are requested to follow the standard format given below for submitting the abstracts.<br>
                 Abstract should be word file. (*.doc or .docx)<br>
                 Abstracts should be submitted by mail to the conference mail id : vit5icnn2018@gmail.com
+            </p>
+            <p>
+                Papers will be published in Springer proceedings in Energy after review process.
+            </p>
+            <p>
+                Authors are requested to prepare their manuscript in the format prescribed in the following link.
+            </p>
+            <p>
+                <a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">
+                    https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines
+                </a>
+            </p>
+            <p>
+                Submitted papers will be checked for plagiarism (including self).
+            </p>
+            <p>
+                Last date of submission of full papers is 8 Feb 2018.
             </p>
             </div>
         </div><!-- /.row -->
@@ -1028,6 +1064,37 @@
                             <div class="col-lg-12 text-center">
                                 <p style="color: black;">
                                     <strong>We have received your message and will get back to you shortly.</strong>
+                                </p>
+                            </div>
+                        </div>                     
+                    </p>
+                </div>
+            </div>          
+        </div>
+    </div>
+
+    <div class="modal fade" id="acco" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h1 class="modal-title text-center" style="color: black;">Accomodation</h1>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p style="color: black;">
+                                    On prior request, Accommodation at VIT Hostels can be arranged for the external participants on
+                                    chargeable basis separately for Gents and Ladies (Rs. 450/- per day boarding &amp; lodging; Alternatively,
+                                    Rs. 300 only for morning refreshment including complimentary breakfast)
+                                </p>
+                                <p style="color: black;">
+                                    Those requiring hostel accommodations should confirm the organizers indicating their period of stay.
+                                </p>
+                                <p style="color: black;">
+                                    Information regarding Hotel accommodation at discounted rates near the Campus will be updated in the
+                                    website during first week of January, 2018.
                                 </p>
                             </div>
                         </div>                     
