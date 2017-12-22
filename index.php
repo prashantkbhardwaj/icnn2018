@@ -37,6 +37,47 @@
             list-style: none;
             padding: 0;
         }
+
+        .blink {
+            -webkit-animation: blink .75s linear infinite;
+            -moz-animation: blink .75s linear infinite;
+            -ms-animation: blink .75s linear infinite;
+            -o-animation: blink .75s linear infinite;
+             animation: blink .75s linear infinite;
+            }
+            @-webkit-keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            @-moz-keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            @-ms-keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            @-o-keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            @keyframes blink {
+                0% { opacity: 1; }
+                50% { opacity: 1; }
+                50.01% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+            #adjust{
+                 margin-top: -50px;
+            }    
     </style>
     
 </head>
@@ -117,16 +158,16 @@
             
             <div class="intro-info-wrapper">
             <img src="img/banner.png">
-
-            <h1 class="text-center">5<sup>th</sup> ICNN <span class="text-color font-light">2018</span></h1>
-            <h2 class="text-center">8-10 February, 2018</h2>
-            <h4 class="text-center">Nanomaterials and Nanocomposite</h4>
-            <h4 class="text-center">Special emphasis on health, energy and environment</h4>
+            <div id="adjust">
+            <h2 class="text-center">5<sup>th</sup> ICNN <span class="text-color font-light">2018</span></h2>
+            <h3 class="text-center">8-10 February, 2018</h3>
+            <h5 class="text-center">Nanomaterials and Nanocomposite</h5>
+            <h5 class="text-center">Special emphasis on health, energy and environment</h5>
                 <div id="owl-intro" class="owl-carousel owl-theme">
                     <div class="item">
                        <div class="col-lg-6">
                            <a href="http://i2cner.kyushu-u.ac.jp/en/team/" target="_blank">
-                                <img class="shadowfilter" style="height: 20%; width: 20%;" src="img/icner.png">
+                                <img class="shadowfilter" style="height: 15%; width: 15%;" src="img/icner.png">
                             </a>
                             <h4 class="text-center"><strong>Knowledge Partner</strong></h4>
                        </div>
@@ -136,7 +177,12 @@
                             </a>
                             <h4 class="text-center"><strong>Industry Partner</strong></h4>
                        </div>
+                       
+                       <center><p class="tab blink">Abstract submission date has been extended to Jan 10, 2018.</p></center>
+                       <center><p class="tab blink">Early bird registration date has been extended to Jan 17, 2018.</p></center>
+                       <center><p class="tab blink">Regular registration starts from Jan 18, 2018.</p></center>
                     </div>
+                </div>
                 </div>
             </div>
         	</div>
