@@ -39,11 +39,11 @@
         }
 
         .blink {
-            -webkit-animation: blink .75s linear infinite;
-            -moz-animation: blink .75s linear infinite;
-            -ms-animation: blink .75s linear infinite;
-            -o-animation: blink .75s linear infinite;
-             animation: blink .75s linear infinite;
+            -webkit-animation: blink 1.750s linear infinite;
+            -moz-animation: blink 1.750s linear infinite;
+            -ms-animation: blink 1.750s linear infinite;
+            -o-animation: blink 1.750s linear infinite;
+             animation: blink 1.750s linear infinite;
             }
             @-webkit-keyframes blink {
                 0% { opacity: 1; }
@@ -161,11 +161,11 @@
             
             <h2 class="text-center">5<sup>th</sup> ICNN <span class="text-color font-light">2018</span></h2>
             <h4 class="text-center">8-10 February, 2018</h4>
-            <h5 class="text-center">Nanomaterials and Nanocomposite</h5>
+            <h5 class="text-center">Nanomaterials and Nanocomposites</h5>
             <h5 class="text-center">Special emphasis on health, energy and environment</h5>
             <div class="text-center">
                 <a href="#" data-toggle="modal" data-target="#acco">
-                   <button class="btn-default tab blink">Accomodation</button>
+                   <button class="btn-default tab blink">Accommodation</button>
                </a>
             </div>
                 <div id="owl-intro" class="owl-carousel owl-theme">
@@ -185,10 +185,12 @@
                     </div>
                 </div>
                 <div class="tab blink text-center">
-                    <p>
-                        Abstract submission date has been extended to Jan 10, 2018.<br>
-                        Early bird registration date has been extended to Jan 17, 2018.<br>
-                        Regular registration starts from Jan 18, 2018.
+                    <p style="color: white;">
+                        <strong>
+                            Abstract submission date has been extended to Jan 10, 2018.<br>
+                            Early bird registration date has been extended to Jan 17, 2018.<br>
+                            Regular registration starts from Jan 18, 2018.
+                        </strong>
                     </p>
                 </div>
                 </div>
@@ -439,20 +441,30 @@
                 </div>
                 <hr>
                 <p>
+                    Research Students can be given a
+                    concessional registration of Rs. 1500/- (excluding Gala Dinner and Social Events).
+                </p>
+                <hr>
+                <p>
                     For participants, registration fee includes Conference kit, Admission to all sessions, Banquet, Tea, Lunch and Dinner on all conference days.<br>
                     For accompanying persons, registration fee includes Admission to all sessions, Banquet, Tea, Lunch and Dinner on all conference days.
                 </p>
                 <hr>
                 <p>
-                    Registration and Payment should be done using the link provided in the conference website.<br>
-                    <a href="www.vit.eventze.com">www.vit.eventze.com</a><br>
+                    The Registration fees payment can be done through the address
+                    <a target="_blank" href="http://www.vit.eventze.in">www.vit.eventze.in</a>.
                     Payments should be done by bank transfer. Bank charges are the responsibility of the participant and
                     should be paid at source in addition to the registration fees.<br>
                     Registration process guidelines are given in the attached pdf file. Registration will only be valid upon
                     receipt of the full payment by organisers according to the deadline dates. You will receive an official
                     confirmation e-mail following receipt of the payment. On spot registration by Demand Draft ( in the
-                    name of VIT Chennai payable at Chennai) is available on prior information to the organizers by mail.
+                    name of <strong>VIT Chennai</strong> payable at Chennai) is available on prior information to the organizers by mail.
                 </p>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 wp3 delay-05s">
+                        <a href="eventze.pdf" target="_blank"><button class="btn-default">The instructions for payment.</button></a>
+                    </div>
+                </div>
                 <hr>
             </div>
 			</div>
@@ -673,14 +685,14 @@
                 Abstract should be word file. (*.doc or .docx)<br>
                 Abstracts should be submitted by mail to the conference mail id : vit5icnn2018@gmail.com
             </p>
-            <p>
-                Papers will be published in Springer proceedings in Energy after review process.
+            <p style="color: white;">
+                <strong>Papers will be published in Springer proceedings in Energy after review process.</strong>
             </p>
             <p>
                 Authors are requested to prepare their manuscript in the format prescribed in the following link.
             </p>
             <p>
-                <a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">
+                <a target="_blank" href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">
                     https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines
                 </a>
             </p>
@@ -1078,7 +1090,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h1 class="modal-title text-center" style="color: black;">Accomodation</h1>
+                    <h1 class="modal-title text-center" style="color: black;">Accommodation</h1>
                 </div>
                 <div class="modal-body">
                     <p>
@@ -1090,7 +1102,7 @@
                                     Rs. 300 only for morning refreshment including complimentary breakfast)
                                 </p>
                                 <p style="color: black;">
-                                    Those requiring hostel accommodations should confirm the organizers indicating their period of stay.
+                                    Participants requiring hostel accommodation should write to the organizers and confirm indicating their period of stay.
                                 </p>
                                 <p style="color: black;">
                                     Information regarding Hotel accommodation at discounted rates near the Campus will be updated in the
