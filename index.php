@@ -452,7 +452,7 @@
                 <hr>
                 <p>
                     The Registration fees payment can be done through the address
-                    <a target="_blank" href="http://www.vit.eventze.in">www.vit.eventze.in</a>.
+                    <a target="_blank" href="http://vit.eventze.in">vit.eventze.in</a>.
                     Payments should be done by bank transfer. Bank charges are the responsibility of the participant and
                     should be paid at source in addition to the registration fees.<br>
                     Registration process guidelines are given in the attached pdf file. Registration will only be valid upon
