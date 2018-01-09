@@ -799,7 +799,7 @@
                 <div class="advantages-item-icon"><img src="img/actors/enrico.jpg" class="img-circle"></div>
                 <h4>Dr. Enrico Traversa</h4>
                 <p>
-                University of Roma, Torvergata, Italy
+                University of Electronic Science and Technology of China
                 </p> 
             </div><!-- /.col-md-4 -->        
             
