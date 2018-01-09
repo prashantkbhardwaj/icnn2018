@@ -725,7 +725,7 @@
 				<div class="col-lg-6">
                 <h2 class="sub-title">International Advisory</h2>
                     Dr. Tatsumi Ishihara, Kyushu University, Japan<br>
-                    Dr. Enrico Traversa, University of Roma, Torvergata, Italy<br>
+                    Dr. Enrico Traversa, University of Electronic Science and Technology of China<br>
                     Dr. Keshab Gangopadhyay, University of Missouri, Columbia, USA<br>
                     Dr. Elisabetta Di Bartolomeo, University of Roma, Torvergata, Italy<br>
                     Dr. Fiorenzo Vetrone, Université du Québec , Canada<br>
@@ -944,11 +944,41 @@
             </div><!-- /.col-md-4 -->  
         </div>
         <div class="row">
-            <div class="col-md-12 advantages-item wp7 delay-05s">
+            <div class="col-md-3 advantages-item wp7 delay-05s">
                 <div class="advantages-item-icon"><img src="img/actors/ganpati.jpg" class="img-circle"></div>
                 <h4>Dr. Ganpati Ramanath</h4>
                 <p>
                 Rensselaer Polytechnic Institute, USA
+                </p> 
+            </div><!-- /.col-md-3 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/ramaRao.jpg" class="img-circle"></div>
+                <h4>Dr. MS Ramachandra Rao</h4>
+                <p>
+                IIT Madras, India
+                </p> 
+            </div><!-- /.col-md-3 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/sabu.jpg" class="img-circle"></div>
+                <h4>Dr. Sabu Thomas</h4>
+                <p>
+                MGU, Kerala
+                </p> 
+            </div><!-- /.col-md-3 -->  
+            <div class="col-md-3 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/nandakumar.jpg" class="img-circle"></div>
+                <h4>Dr. Nandakumar</h4>
+                <p>
+                MGU, Kerala
+                </p> 
+            </div><!-- /.col-md-3 -->  
+        </div>
+        <div class="row">
+            <div class="col-md-12 advantages-item wp7 delay-05s">
+                <div class="advantages-item-icon"><img src="img/actors/abeera.jpg" class="img-circle"></div>
+                <h4>Dr. Abeera Sharma</h4>
+                <p>
+                Dr. Reddy;s Lab, Hyderabad
                 </p> 
             </div><!-- /.col-md-3 -->  
         </div>
