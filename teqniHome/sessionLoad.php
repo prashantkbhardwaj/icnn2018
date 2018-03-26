@@ -9,7 +9,6 @@
 	$response['sessionData'] = "";
 	while ($list = mysqli_fetch_assoc($result)) {
 		$response['sessionData'] .= $list['sessionName'].",";
-		echo $list['sessionName'];
 	}
 	echo json_encode($response);
 ?>
