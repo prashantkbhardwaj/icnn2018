@@ -2,7 +2,7 @@
 <?php require_once("includes/functions.php");?>
 <?php
 	$user = $_POST['username'];
-	$query = "SELECT DISTINCT(sessionName) FROM volleyupload WHERE uploader = '{$user}' ORDER BY id DESC";
+	$query = "SELECT * FROM volleyupload WHERE uploader = '{$user}'";
 	$result = mysqli_query($conn, $query);
 	$response = array();
 	$response["success"] = true; 
